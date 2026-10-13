@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <main class="container py-5"> 
+        <div class="row justify-content-center"> 
+            <div class="col-md-8 col-lg-6"> 
+                <h1 class="text-center mb-4">Конвертер раскладки</h1> 
+                <div class="d-flex justify-content-between align-items-center mb-3"> 
+                    <div class="form-check form-switch"> 
+                        <input class="form-check-input" type="checkbox" id="directionToggle"> 
+                        <label class="form-check-label" for="directionToggle">RU → EN</label> 
+                    </div> <button class="btn btn-outline-secondary btn-sm" id="clearBtn">Очистить</button> 
+                </div> 
+                <div class="mb-3"> 
+                    <label for="inputText" class="form-label">Ввод</label> 
+                    <textarea class="form-control" id="inputText" rows="4" placeholder="Начните печатать здесь..." autofocus></textarea> 
+                </div> 
+                <div class="mb-3"> 
+                    <label for="outputText" class="form-label">Вывод</label> 
+                    <textarea class="form-control" id="outputText" rows="4" readonly placeholder="Результат появится здесь..."></textarea> 
+                </div> 
+            </div> 
+        </div> 
+    </main> 
+    <script src="script.js"></script>
+</body>
+</html>
